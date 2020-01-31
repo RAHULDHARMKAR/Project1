@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/delhi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Delhi" />
+
+            <Button
+                android:id="@+id/mumbai"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mumbai" />
+
+            <Button
+                android:id="@+id/bangalore"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bangalore" />
+
+            <Button
+                android:id="@+id/durg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Durg" />
+
+            <Button
+                android:id="@+id/bhilai"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bhilai" />
+
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <LinearLayout
+        android:id="@+id/layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" />
+
+</LinearLayout>
